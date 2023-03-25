@@ -1,0 +1,42 @@
+body{
+    background-color:#2e2d2d;
+    color: #ffffff;
+  }
+  #name{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color:#000000;
+  }
+  #links a{
+    color:navy;
+    text-decoration: none;
+  }
+  #links li{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding-right: 3px;
+    background-color: #ecfd8a;
+  }
+  saa{
+    color:navy;
+    text-decoration: none;
+    background-color: #000000 ;
+    border: 3px solid rgb(234, 243, 113);
+  }
+  h3{
+    background-color: #020201;
+  }
+  .dtag{
+    font-style:italic;
+    font-weight:bold;
+    color: #f5f7a4;
+  }
+  .habil{
+    font-size: 22px;
+    color: gold;
+  }
+  #links a:hover, #links li:hover{
+    font-size: 120%;
+    background-color: black;
+    color: white;
+  }
