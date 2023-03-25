@@ -3,65 +3,42 @@
   <head>
     <meta charset="UTF-8">
     <title>MeuPortifolio</title>
-    <style>
-      body{
-        background-color:#2e2d2d;
-        color: #ffffff;
-      }
-      #name{
-        font-family:Arial, Helvetica, sans-serif;
-        background-color: #ffffff;
-        color:#000000;
-      }
-      a{
-        color:navy;
-        text-decoration: none;
-        background-color: #000000 ;
-      }
-      h3{
-        background-color: #020201;
-      }
-      .dtag{
-        font-style:italic;
-        font-weight:bold;
-        color: #f5f7a4;
-      }
-      .habil{
-        font-size: 22px;
-        color: gold;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1 id="name">Mathus Henrique Domingos Cirino</h1>
-    <br>
-    <img id="foto" src="/imagens/minha foto2.jpg" width="400" alt="foto de Matheus Henrique">
-    <br><br>
-    <h3 id="descricao">Descrição</h3>
-    <p>Olá, Meu nome é Matheus Henrique, sou filho de Ana Aparecida Domingos e Francisco Evangelista,<br>
-      sou <tag class="dtag">Brasileiro</tag> nascido em Caéte/MG no dia <tag class="dtag">06/02/2003</tag>, mas vivi minha vida toda na cidade onde moro,<br>
-     <tag class="dtag">Nova União/MG</tag>, tenho 20anos e atualmente estudo programação na Trybe turma 32b. </p>
-     <br>
-     <h3 id="lista"><strong>Competências:</strong></h3>
-     <ul>
-      <br>
-      <li class="habil">Forte ética de trabaho;</li>
-      <li class="habil">Trabalho em equipe;</li>
-      <li class="habil">Facilidade para aprender novas habilidades;</li>
-      <li class="habil">Facilidade ao trabalhar em computadores;</li>
-      <li class="habil">Resolução de problemas;</li>
-      <li class="habil">Comprometimento;</li>
-      <li class="habil">Responsabilidade;</li>
-     </ul>
-     <br><br><br>
-     <h3>Links:</h3>
-     <h3>indice:</h4>
-     <ol>
-      <a href="https://flowgames.gg/" target="_blank"><li>FLOWGG blog de games</li></a>
-      <a href="#foto"><li><strong>Foto do incio</strong></li></a>
-      <a href="#descricao"><li><strong>Descrição</strong></li></a>
-      <a href="#lista"><li><strong>Competências</strong></li></a>
-    </ol>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="perfil">
+      <h1 id="name">Mathus Henrique Domingos Cirino</h1>
+     <div class="perfil1">
+       <img id="foto" src="/imagens/minha foto2.jpg" width="400px" alt="foto de Matheus Henrique">
+     </div>
+      <div class="perfil2">
+        <h3 id="descricao">Descrição</h3>
+        <p>Olá, Meu nome é Matheus Henrique, sou filho de Ana Aparecida Domingos e Francisco Evangelista,
+        sou <tag class="dtag">Brasileiro</tag> nascido em Caéte/MG no dia <tag class="dtag">06/02/2003</tag>, mas vivi minha vida toda na cidade onde moro,
+        <tag class="dtag">Nova União/MG</tag>, tenho 20anos e atualmente estudo programação na Trybe turma 32b. </p>
+     </div>
+    </div>
+    <div id="final">
+      <h3 id="lista"><strong>Competências:</strong></h3>
+      <ul>
+       <li class="habil">Forte ética de trabaho;</li>
+       <li class="habil">Trabalho em equipe;</li>
+       <li class="habil">Facilidade para aprender novas habilidades;</li>
+       <li class="habil">Facilidade ao trabalhar em computadores;</li>
+       <li class="habil">Resolução de problemas;</li>
+       <li class="habil">Comprometimento;</li>
+       <li class="habil">Responsabilidade;</li>
+      </ul>
+      <h3>indice:</h4>
+      <div id="links">
+         <ol>
+         <a href="https://flowgames.gg/" target="_blank"><li><strong>FLOWGG blog de games</strong></li></a>
+         <a href="#foto"><li><strong>Foto do incio</strong></li></a>
+         <a href="#descricao"><li><strong>Descrição</strong></li></a>
+         <a href="#lista"><li><strong>Competências</strong></li></a>
+         </ol>
+       </div>
+    </div>
+   
   </body>
 </html>
